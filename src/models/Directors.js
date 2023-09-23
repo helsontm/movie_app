@@ -10,10 +10,6 @@ const Directors = sequelize.define('directors', {
         type: DataTypes.STRING,
         allowNull: false
     },
-    firstName: {
-        type: DataTypes.STRING,
-        allowNull: false
-    },
     nationality: {
         type: DataTypes.STRING,
         allowNull: false
